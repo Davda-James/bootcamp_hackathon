@@ -1,22 +1,76 @@
-# Ignore Python bytecode
+# Python
 __pycache__/
 *.py[cod]
-
-# Ignore virtual environment directories
-myenv/
+*.pyo
+*.pyd
+*.db
+*.sqlite3
 *.egg-info/
-env/
-venv/
+dist/
+build/
+myenv/
+# MacOS
+.DS_Store
 
-# Ignore Jupyter Notebook checkpoints
-.ipynb_checkpoints/
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
 
-# Ignore local configuration files
+# Environment Variables
+.env
 *.env
-*.local
 
-# Ignore IDE/editor configuration files
-.vscode/
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IDE and Editor files
 .idea/
-*.sublime-project
-*.sublime-workspace
+.vscode/
+*.swp
+*.swo
+
+# Logs
+*.log
+
+# Temporary files
+tmp/
+temp/
+
+# Testing
+.coverage
+.coverage.*
+nosetests.xml
+*.cover
+*.log
+
+# Dependency directories
+node_modules/
+bower_components/
+venv/
+.env/
+
+# Compiled source #
+###################
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+
+# Backup files #
+################
+*~ 
+*.bak
+
+# Other files
+*.tgz
+*.zip
+*.tar
+*.gz
+*.rar
+
+# Ignore other files
+*.iml
+*.pyc
