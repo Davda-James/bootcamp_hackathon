@@ -25,6 +25,6 @@ This Flask application uses image captioning and keyword extraction to perform a
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/image-chatbot.git
-   cd image-chatbot
+   git clone https://github.com/Davda-James/bootcamp_hackathon
+   cd ps1_google_lens_pro_max
    python app.py
